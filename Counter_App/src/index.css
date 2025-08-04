@@ -1,0 +1,85 @@
+/* Background and container */
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f0f4ff, #dcdafc);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  padding: 20px;
+}
+
+/* Card styling */
+.counter-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Title */
+.title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Count display */
+.count-display {
+  font-size: 72px;
+  font-weight: bold;
+  color: #4b00ff;
+  margin-bottom: 30px;
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Button types */
+.increase {
+  background-color: #4caf50;
+}
+
+.decrease {
+  background-color: #f57c00;
+}
+
+.reset {
+  background-color: #f44336;
+}
+
+/* Button hover effect */
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (min-width: 480px) {
+  .button-group {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn {
+    flex: 1;
+    margin: 0 10px;
+  }
+}
