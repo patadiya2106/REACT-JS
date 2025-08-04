@@ -71,7 +71,6 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
-/* Responsive */
 @media (min-width: 480px) {
   .button-group {
     flex-direction: row;
