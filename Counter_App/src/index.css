@@ -17,8 +17,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-/* Product Card Styling */
 .product-card {
   background: #ffffff;
   border-radius: 20px;

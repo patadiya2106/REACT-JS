@@ -1,12 +1,45 @@
-# React + Vite
+# React Add to Cart Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **React.js Add to Cart** project built with Vite.
 
-Currently, two official plugins are available:
+## 📦 Features
+- Add and remove products from the cart
+- Quantity controls with stock limit
+- Mobile phone product display
+- Simple and clean UI with animations
+- Cart updates dynamically
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Installation & Setup
 
-## Expanding the ESLint configuration
+1. **Clone the repo** or download ZIP  
+   ```bash
+   git clone https://github.com/patadiya2106/REACT-JS.git
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Navigate to project folder**  
+   ```bash
+   cd react-cart-app
+   ```
+
+3. **Install dependencies**  
+   ```bash
+   npm install
+   ```
+
+4. **Run the project**  
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and go to `http://localhost:5173`.
+
+## 🖼️ Screenshot
+![Screenshot 1](./src/assets/image/add-to-cart.PNG)
+
+## 🛠️ Tech Stack
+- React.js
+- Vite
+- CSS3
+
+## 📜 License
+[MIT License](https://github.com/patadiya2106/MIT-License)
