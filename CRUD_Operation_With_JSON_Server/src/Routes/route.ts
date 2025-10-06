@@ -6,8 +6,8 @@ import App from "../App";
 export const routerNames = {
     home: '/',
     addProduct: '/add-product',
+    about: '/about',
     viewProduct: '/view-products',
-    editProduct: '/edit-product/:id',
     contact: '/contact',
 }
 

@@ -3,7 +3,7 @@ import App from "../src/App";
 import Home from "../src/Compontes/Home/Home";
 import Features from "../src/Compontes/Features/Features";
 import Pricing from "../src/Compontes/Pricing/Pricing";
-import Testimonials from "../src/Compontes/Testimonials/Testimonials";
+import Testimonials from "";
 
 export const router = createBrowserRouter([
     {
